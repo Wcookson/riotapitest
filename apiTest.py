@@ -2,7 +2,7 @@ import random
 import cassiopeia as cass
 import PySimpleGUI as sg
 
-cass.set_riot_api_key("RGAPI-05a5b250-7a59-4498-826d-bbd8d7ffc514")  # here you need to get a DEVELOPMENT API KEY from "https://developer.riotgames.com/" and insert it. itll expire in 24hours unless you register the application for a more permanent key
+cass.set_riot_api_key("")  # here you need to get a DEVELOPMENT API KEY from "https://developer.riotgames.com/" and insert it. itll expire in 24hours unless you register the application for a more permanent key
 
 layout = [[sg.Text('Enter User Name: '), sg.InputText()],
           [sg.Text('Enter region: '), sg.InputText()],
